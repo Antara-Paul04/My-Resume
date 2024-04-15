@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage{parskip} 	
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage[unicode, draft=false]{hyperref}
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+% Centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+% Custom section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+% Page setup
+\usepackage[scale=0.9]{geometry}
+\geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm}
+
+% Setup hyperref package, and colours for links
+\definecolor{linkcolour}{rgb}{0,0,0}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\begin{document}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Antara Paul}\\[7.5pt]
+\href{https://github.com/Antara-Paul04}{\raisebox{-0.05\height}{\faGithub}\ Antara-Paul04} \ $|$ \ 
+\href{https://www.linkedin.com/in/antara-paul-069a37271/}{\raisebox{-0.05\height}{\faLinkedin}\ Antara Paul} \ $|$ \ 
+\href{https://antara-paul04.github.io/Antara---Portfolio/}{\raisebox{-0.05\height}{\faGlobe}\ Website} \ $|$ \ 
+\href{mailto:paul.antara04@gmail.com}{\raisebox{-0.05\height}{\faEnvelope}\ paul.antara04@gmail.com} \ $|$ \ 
+\href{tel:+000000000000}{\raisebox{-0.05\height}{\faMobile}\ +91 7602513009}\\
+\end{tabularx}
+
+\section{Professional Profile}
+I am a second-year undergraduate actively engaged in various tech communities, contributing to Google Developer Student Clubs (GDSC) IIITK, Free and Open Source Software (FOSS) IIITK, and Google Developer Groups (GDG). With roles as Design Lead at GDSC and core team member of FOSS, I specialize in event organization and leadership. Recently venturing into app development, building upon my proficiency in HTML, CSS, and JavaScript, I've made significant progress in Flutter. Over the past seven months, I've curated a diverse portfolio demonstrating strong design skills and a commitment to innovation, driven by a passion for impactful technology solutions. 
+
+\section{Work Experience}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Google Developer Student Clubs (GDSC), Design Lead} & \hfill Aug 2023 - present \\[3.5pt]
+Creative lead of GDSC IIITK 2023-24 chapter
+Organized Rebase, overseeing all design branding aspects, including website design. \\[4pt]
+\textbf{Free and Open Source Software (FOSS), Core Team Member} & \hfill Oct 2023 - present \\[3.5pt]
+Organized meetups and actively contributed to community forums. \\[4pt]
+\textbf{Google Developer Group (GDG) Kolkata, Volunteer} & \\[3.5pt]
+Contributed to the organization team of DevFest 2023, including designing the event website. \\[4pt]
+\textbf{Freelance Work} & \hfill Jan 2021 - present \\[3.5pt]
+Engage in occasional freelance projects while deepening expertise in Flutter and mobile app development. \\
+\end{tabularx}
+
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\Large\textbf{Design Projects} & \\[8pt]
+\textbf{Rebase Hackathon:} & One of the lead organizers of Rebase, a hackathon aimed at fostering innovation and collaboration. \\
+& \textbf{Rebase Website:} \href{https://www.rebase01.tech/}{www.rebase01.tech} \\
+& \textbf{Rebase Branding:} \href{https://www.behance.net/gallery/194027031/Rebase-brandingsocial-media}{Behance Gallery} \\[10pt]
+\textbf{Devfest Kolkata 2023:} & Volunteered at GDG Kolkata and was a part of the organizing team for Devfest 2023, a prestigious tech conference. \\
+& \textbf{Event Website:} \href{https://devfest.gdgkolkata.in/}{Devfest Kolkata 2023 Website}\\[10pt]
+\Large\textbf{App Development Projects} & \\[8pt]
+\textbf{Notes App:} & A simple notes application built using Flutter. \\
+& \textbf{GitHub:} \href{https://github.com/Antara-Paul04/Notes-App}{Notes App Repository} \\[5pt]
+\textbf{Todo App:} & A todo list application developed using Flutter. \\
+& \textbf{GitHub:} \href{https://github.com/Antara-Paul04/To-Do-App}{Todo App Repository} \\[5pt]
+\textbf{Twitter Clone:} & Ongoing project to create a clone of the Twitter app using Flutter, Firebase and Riverpod. \\
+& \textbf{GitHub:} \href{https://github.com/Antara-Paul04/Twitter-Clone}{Twitter App Repository} \\[5pt]
+\textbf{Twitter Clone:} & A project just started to create a clone of the Twitch app using Flutter, Firebase and Riverpod. \\
+& \textbf{GitHub:} \href{https://github.com/Antara-Paul04/Twitch-Clone}{Twitch App Repository} \\[5pt]
+\multicolumn{2}{@{}X@{}}{All my other projects are available on my \href{https://github.com/Antara-Paul04}{GitHub Profile.}}
+\end{tabularx}
+
+
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+2022 - 2026 & Computer Science and Engineering, IIIT Kalyani \hfill \normalsize (GPA(present): 8.4) \\
+2022 & Class 12th (CBSE board) \\
+2020 & Class 10th (ICSE board)\\
+\end{tabularx}
+
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Design &  \normalsize{Figma, Adobe Illustrator, Blender.}\\
+App Development  &  \normalsize{Dart, Flutter, Firebase}\\
+Web Development  &  \normalsize{HTML, CSS, JS}\\  
+Languages  &  \normalsize{Python, JAVA, C, Vivado}\\
+Others &  \normalsize{Github, LaTeX}
+\end{tabularx}
+
+\vfill
+\center{\footnotesize Last updated: \today}
+
+\end{document}
